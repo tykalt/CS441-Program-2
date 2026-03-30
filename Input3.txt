@@ -1,0 +1,17 @@
+/* Lexical error on line 5 */ 
+
+X := 10; 
+Y := 2;
+IF X > 10 THEN  // The '//' is not a comment symbol. 
+   WHILE Y > 0 DO
+      Y := Y - 1;
+      IF Y = 0 THEN 
+		PRINT 0;
+      ELSE 
+		Z := 0; /* SYNTAX REQUIRES ELSE CLAUSE */ 
+	  END;  /* END IF CLAUSE */ 
+   END;  /* END WHILE */ 
+ELSE
+	X := 10;
+END;  /* END OUTER IF */ 
+      	  

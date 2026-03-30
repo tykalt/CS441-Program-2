@@ -1,0 +1,25 @@
+/* Syntax error at EOF -- missing END for outermost IF -- CLEANED FOR STRUCTURAL TESTING */ 
+
+_X-2345ASDadlkj := 10; 
+
+/* Math check */ 
+Y-z := _X-2345ASDadlkj + 2 - 3 * 6 * -1 + 13.0 - 0 * 0.0 + 3 * 6 / 3 * 12 / 27;
+X := _X-2345ASDadlkj;
+Y := Y-z;
+IF X > 10 THEN  
+   IF Y < 5 THEN 
+      WHILE Y > 0 DO 
+         Y := Y - 1;
+         IF Y = 0 THEN 
+            PRINT 0;
+         ELSE
+            PRINT Y;
+         END;  /* END IF CLAUSE */ 
+      END;  /* END WHILE */ 
+   ELSE
+      PRINT Y;
+   END;  /* END INNER IF */ 
+ELSE
+   X := -10;
+   PRINT X;
+END;  /* END OUTERMOST IF */ 

@@ -1,0 +1,16 @@
+/* Lexical error on line 4 */ 
+
+_X-2345ASDadlkj := 10; 
+3Y+43 := 2;
+IF _X-2345ASDadlkj > 10 THEN   
+   WHILE Y > 0 DO 
+      Y := Y - 1;
+      IF Y = 0 THEN 
+		PRINT 0;
+	  END;  /* END IF CLAUSE */ 
+   END;  /* END WHILE */ 
+ELSE
+	X := 10;
+	PRINT X; 
+END;  /* END OUTER IF */ 
+      	  

@@ -1,0 +1,4 @@
+/* Simple code, should parse. */ 
+X := 1; 
+Y := 2; 
+PRINT (X + Y)/2;
